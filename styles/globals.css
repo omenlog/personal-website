@@ -21,3 +21,17 @@ a {
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .section-header {
+        @apply text-black mb-14 text-5xl
+    }
+
+    .info-paragraph {
+        @apply text-lg text-gray-600;
+
+    }
+
+    .experience-topics {
+        @apply text-indigo-700 text-2xl;
+    }
+}
